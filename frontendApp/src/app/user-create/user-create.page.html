@@ -1,0 +1,31 @@
+<!-- student-create.html -->
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Create User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input [(ngModel)]="data.name" placeholder="Enter Name (name should be between 3-30 characters)"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input [(ngModel)]="data.email" placeholder="Enter Email (please enter a valid email)"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Password</ion-label>
+    <ion-input [(ngModel)]="data.password" type="password" placeholder="Enter Password (password should be between 6-30 characters)"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="submitForm()">Add
+    </ion-button>
+  </ion-item>
+
+</ion-content> 
+

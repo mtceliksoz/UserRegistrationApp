@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      User Registration App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <span class="already">Create a User</span>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/user-create']"  color="primary">Register</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center>
+        <span class="already">Login your User account</span>
+      </ion-col>
+    </ion-row> 
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/user-login']"  color="danger">Login</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center>
+        <span class="already">List of all Users</span>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['/user-list']"  >Users List</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

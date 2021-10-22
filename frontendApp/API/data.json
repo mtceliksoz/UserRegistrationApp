@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Enola Rowe",
+      "email": "tony@mcu.com",
+      "password": "131562"
+    },
+    {
+      "id": 2,
+      "name": "Timmothy Lueilwitz",
+      "email": "15",
+      "password": "37137"
+    },
+    {
+      "name": "muhammed",
+      "email": "mtc@mtc.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "mete",
+      "email": "mete@mete.com",
+      "password": "157990",
+      "id": 4
+    },
+    {
+      "name": "enes",
+      "email": "enes@.com",
+      "password": "256143",
+      "id": 5
+    },
+    {
+      "name": "23132",
+      "email": "poıjıon",
+      "password": "oıhjhoı",
+      "id": 6
+    },
+    {
+      "name": "müşto",
+      "email": "müşto@müşto.com",
+      "password": "Onder12345",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!-- student-create.html -->
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Update User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input [(ngModel)]="data.name" name="name" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input [(ngModel)]="data.email" name="email" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Password</ion-label>
+    <ion-input [(ngModel)]="data.password" name="password" type="password" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="update()">Add
+    </ion-button>
+  </ion-item>
+
+</ion-content> 

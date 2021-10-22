@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>user-home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <table class="table">
+    <thead>
+      <tr>
+        <td>You are successfully Logged in </td><br/>
+      </tr>
+    </thead>
+    <tbody>
+      <tr >
+        
+        <td style="display: flex">
+          <ion-button color="warning" size="small" (click)="sendtoEditPage()">
+            <ion-icon name="information-circle-outline"></ion-icon>
+            Update your info
+          </ion-button>
+          <ion-button color="warning" size="small" (click)="Logout()" [routerLink]="['/home']">
+            <ion-icon name="log-out-outline"></ion-icon>
+            Logout
+          </ion-button>
+          <ion-button color="danger" size="small" (click)="delete()" [routerLink]="['/home']">
+            <ion-icon name="trash-outline"></ion-icon>
+            Delete your account
+          </ion-button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</ion-content>
