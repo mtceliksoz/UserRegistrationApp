@@ -1,21 +1,25 @@
 Build by Muhammed Talha Çeliksöz (mtceliksoz@gmail.com) 
 
-# UserRegistrationApp
+# **UserRegistrationApp**
 
-##Introduction
+## **Introduction**
+
 This a User Registration App. This App build has been developed using Spring Boot for backend API and Ionic-Angular for frontend App.
 User has attributes such as id, name, email and password.
 You could create an User account, login action, logout action, update and delete an existing User account.
 
-##Installition
+## **Installition**
 
-#Requirements
+# **Requirements**
+
 To run the project you should have 
 -jdk (I have jdk-17),
 -node.js
 -npm 
 
-#Running the App
+
+# **Running the App**
+
 After all the requirements satisfied you could run the project.
 -Download the repository.
 -Open terminal (I used windows command line)
@@ -26,13 +30,15 @@ After all the requirements satisfied you could run the project.
 -And write this command `ionic serve`
 -ionic app should be start on web browser (localhost:8100)
 
-#Testing the App
+
+# **Testing the App**
 
 At the beginning there is no user so you have to Register a User account.
 After that you could login your account and on the user-home page you could update your infos, logout or delete your account.
 You could also test the backendAPI using the Postman (use this url `http://localhost:8080/api/v1/user`)
 
-#backendAPI
+
+# **backendAPI**
 
 **User.java** : A model class for User account. Thera are some validations for user attributes.
 
@@ -47,7 +53,8 @@ You could also test the backendAPI using the Postman (use this url `http://local
 -LogoutRequest (PUT http://localhost:8080/api/v1/user/logout/{id}): change the user's isLoggedIn variable as false.
 -updateUserById (PUT http://localhost:8080/api/v1/user/{id}): updates the user's infos.
 
-#frontendApp
+
+# **frontendApp**
 
 Frontend App has 6 pages.
 
