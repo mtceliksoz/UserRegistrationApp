@@ -10,7 +10,7 @@ You could create an User account, login action, logout action, update and delete
 
 ## **Installition**
 
-# **Requirements**
+### **Requirements**
 
 To run the project you should have 
 -jdk (I have jdk-17),
@@ -18,7 +18,7 @@ To run the project you should have
 -npm 
 
 
-# **Running the App**
+### **Running the App**
 
 After all the requirements satisfied you could run the project.
 -Download the repository.
@@ -31,14 +31,14 @@ After all the requirements satisfied you could run the project.
 -ionic app should be start on web browser (localhost:8100)
 
 
-# **Testing the App**
+## **Testing the App**
 
 At the beginning there is no user so you have to Register a User account.
 After that you could login your account and on the user-home page you could update your infos, logout or delete your account.
 You could also test the backendAPI using the Postman (use this url `http://localhost:8080/api/v1/user`)
 
 
-# **backendAPI**
+## **backendAPI**
 
 **User.java** : A model class for User account. Thera are some validations for user attributes.
 
@@ -54,7 +54,7 @@ You could also test the backendAPI using the Postman (use this url `http://local
 -updateUserById (PUT http://localhost:8080/api/v1/user/{id}): updates the user's infos.
 
 
-# **frontendApp**
+## **frontendApp**
 
 Frontend App has 6 pages.
 
