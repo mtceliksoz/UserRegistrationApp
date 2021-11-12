@@ -4,7 +4,7 @@ Build by Muhammed Talha Çeliksöz (mtceliksoz@gmail.com)
 
 ## **Introduction**
 
-This a User Registration App. This App build has been developed using Spring Boot for backend API and Ionic-Angular for frontend App.
+This is a User Registration App. This App has been developed using Spring Boot for backend API and Ionic-Angular for frontend App.
 User has attributes such as id, name, email and password.
 You could create an User account, login action, logout action, update and delete an existing User account.
 
